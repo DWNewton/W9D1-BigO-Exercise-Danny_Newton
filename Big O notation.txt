@@ -1,0 +1,45 @@
+Big O notation:
+
+- Time and space complexity of code.
+
+- Time: the amount of time an algorithm takes to complete its logical function
+
+- Space: the amount of memory an algorithm requires to perform its logical function
+
+
+TIME COMPLEXITY:
+
+- TIME COMPLEXITY of Linear function:
+O(1) requires only a single iteration to resolve its function, regardless of what
+parameters are passed to the logic. There are typically no loops in this sort of function.
+
+- TIME COMPLEXITY of Iterative function:
+O(n) usually refers to loops that iterate over "n" times.
+ - The time the function takes increases linearly with the value of "n".
+ - a "Linear Search" is an iterative function that has a time complexity of O(n)
+
+
+- TIME COMPLEXITY of a Binary Search (Logarithmic Time):
+ - Divide an array into two halves, searching for solution. If not found in one half, divide the other half and search again. This array division Repeats as necessary until the solution for the logic is found.
+//Time complexity: O(log n)
+
+
+- TIME COMPLEXITY of Quadratic Search
+ - The time the function takes increases exponentially with the value of "n".
+ - Ex. Iterating through two arrays, the first iterator stays at its first iteration until the second iterator loops through the entirety of its array once, then the first iterator goes up by whatever iterant is specified, and the second iterator loops through the entirety of its array again, and so on, and so forth...
+// Time complexity: O(n^2)
+ 
+
+- TIME COMPLEXITY of Bubble Sort
+ - Sort a small subsection of an array (e.g. first two elements) and, if they are not sorted correctly, swap them. Then sort/swap the second element and the next element of an array in an interative process. Pass through the array doing this paired sort/swap until no swaps are made. The array is now sorted.
+// Time complexity: Varies --> Best: O(n) [The array was already sorted] | Worst/Average: O(n^2) (n = length of array)
+
+
+
+
+SPACE COMPLEXITY:
+
+O(n) - An loop or array that contains "n" elements, the amount of memory used increases linearly with the value of "n".
+
+O(1) - A function that requires a fixed amount of memory, regardless of the parameters passed to the logic.
+
